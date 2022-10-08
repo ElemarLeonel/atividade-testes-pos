@@ -1,0 +1,23 @@
+{
+  "name": "atividade-testes-pos",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test":"node --experimental-vm-modules node_modules/jest/bin/jest.js",
+    "test:watch":"node --experimental-vm-modules node_modules/jest/bin/jest.js --watchAll"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.25.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.26.0"
+  },
+  "dependencies": {
+    "jest": "28.1.0",
+    "save-dev": "0.0.1-security"
+  }
+}
